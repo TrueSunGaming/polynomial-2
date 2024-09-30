@@ -1,7 +1,7 @@
 import { PowerVariable } from "./PowerVariable";
 import type { MaybeComplex } from "./MaybeComplex";
 
-export class SingleVariableTerm {
+export class MultiVariableTerm {
     coefficient: MaybeComplex;
     variables: PowerVariable[];
 }
